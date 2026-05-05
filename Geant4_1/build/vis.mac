@@ -1,0 +1,11 @@
+# Sahneyi oluştur
+/vis/open OGL 600x600-0+0
+/vis/drawVolume
+
+# Parçacık izlerini göster
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+# Optik fotonları (Cherenkov) mavi renkte göster
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set opticalphoton blue

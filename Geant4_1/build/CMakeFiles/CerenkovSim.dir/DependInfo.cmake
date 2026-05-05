@@ -1,0 +1,27 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/yusuf/Desktop/Geant4_dosyaları/Geant4_1/main.cc" "CMakeFiles/CerenkovSim.dir/main.cc.o" "gcc" "CMakeFiles/CerenkovSim.dir/main.cc.o.d"
+  "/home/yusuf/Desktop/Geant4_dosyaları/Geant4_1/src/ActionInitialization.cc" "CMakeFiles/CerenkovSim.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/CerenkovSim.dir/src/ActionInitialization.cc.o.d"
+  "/home/yusuf/Desktop/Geant4_dosyaları/Geant4_1/src/DetectorConstruction.cc" "CMakeFiles/CerenkovSim.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/CerenkovSim.dir/src/DetectorConstruction.cc.o.d"
+  "/home/yusuf/Desktop/Geant4_dosyaları/Geant4_1/src/PhysicsList.cc" "CMakeFiles/CerenkovSim.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/CerenkovSim.dir/src/PhysicsList.cc.o.d"
+  "/home/yusuf/Desktop/Geant4_dosyaları/Geant4_1/src/PrimaryGeneratorAction.cc" "CMakeFiles/CerenkovSim.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/CerenkovSim.dir/src/PrimaryGeneratorAction.cc.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
