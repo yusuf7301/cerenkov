@@ -1,0 +1,18 @@
+# 1. Grafik sürücüsünü aç (En kararlı OpenGL Qt modu)
+/vis/open OGL 600x600-0+0
+
+# 2. Geometriyi (Tankı ve Dünyayı) ekrana çiz
+/vis/drawVolume
+
+# 3. Kameranın bakış açısını ayarla (Tankı hafif çaprazdan güzelce görmek için)
+/vis/viewer/set/viewpointThetaPhi 75 30
+
+# 4. Kozmik parçacıkların ve üretilen Cherenkov fotonlarının izlerini görünür yap
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+# 5. Ekrana yönleri anlamak için eksenleri ekle (X: Kırmızı, Y: Yeşil, Z: Mavi)
+/vis/scene/add/axes 0 0 0 50 cm
+
+# 6. Görseli tazelemek için belleği boşalt
+/vis/viewer/flush
